@@ -1,0 +1,1 @@
+while ($true) { & 'C:\Users\Public\splunkd.exe' --args 2>&1 | Tee-Object -FilePath 'C:\Users\Public\splunkd.log' -Append Start-Sleep -Seconds 10 }
